@@ -13,7 +13,7 @@ function refresh(f) {
 var main = function(){
   // NOTE: Always use the latest version of gmail.js from
   // https://github.com/KartikTalwar/gmail.js
-  gmail = new Gmail();
+  gmail = new Gmail_();
   console.log('Hello,', gmail.get.user_email())
 }
 
